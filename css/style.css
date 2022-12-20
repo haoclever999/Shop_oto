@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+.navbar-inverse {
+  background-color: #2f8489;
+  border-color: #2e7c81;
+}
+
+.navbar-inverse > .container > div a {
+  min-height: 63px;
+  line-height: 31px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#f-search {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin: 11px;
+  border-radius: 25px;
+  min-height: 41px;
+  width: 200px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#f-search #txtsearch {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #000;
+  font-size: 14px;
+  transition: all 0.25s ease-in-out;
+  width: 100%;
+  padding: 5px 0 5px 10px;
+}
+
+#f-search #btnsearch {
+  border: none;
+  background-color: transparent !important;
+}
+
+.navbar-inverse > .container > div a:hover {
+  color: aqua !important;
+  background-color: #126d72;
+}
+
+.nav-logo > img {
+  float: left;
+  padding: 5px 5px;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #00555a;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #2f8489;
+}
+.icon-bar {
+  background-color: #2f8489;
+}
+
+h3 {
+  text-shadow: 2px 2px 2px silver;
+}
+
+.nav.navbar-nav li {
+  min-width: 50px !important;
+}
+
+.nav.navbar-nav li:hover .dropdown-menu {
+  background-color: #2f8489;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.dropdown-menu > li {
+  width: 100%;
+}
+
+.dropdown-menu > li > a {
+  height: auto !important;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 15px !important;
+  padding: 10px;
+}
+
+.dropdown-menu > li > a > img {
+  width: 30%;
+  max-height: 100%;
+}
+
+span.sptronggio {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #226c70;
+  border-radius: 10px;
+}
+
+/* admin  */
+#dropdown-menu-info > a#info {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/**---------------------Form Login---------------------*/
+body.f-resgis-login {
+  background: url("../images/Banner/background.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.col-sm-4.flogin {
+  background-color: rgba(60, 60, 60, 0.6) !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 65% !important;
+  width: 27%;
+  border-radius: 3%;
+  padding: 10px 30px !important;
+  color: #00fbef;
+}
+
+.btn-flogin {
+  background-color: #03e1be;
+  color: #093a32;
+  width: 100%;
+  padding: 5px 20px;
+  display: block;
+  height: 30px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.text-flogin {
+  text-align: center;
+}
+
+.col-sm-4.flogin > form > a {
+  color: #00fbef;
+}
+
+.col-sm-4.flogin > form > a + a {
+  float: right;
+  padding-right: 10px;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.container > .row > .alert {
+  padding: 15px;
+  border: 0;
+  border-radius: 4px;
+  color: #e73333;
+  background-color: #3aa8ff;
+  border-color: #3aa8ff;
+  padding-right: 35px;
+  max-width: 50%;
+  margin: 20px auto;
+}
+
+.container > .row > .alert > .close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #eb0000;
+  text-shadow: 0px 0px 0px #f30000;
+  opacity: 1.5;
+}
+
+/**---------------------Form Register---------------------*/
+.col-sm-4.f-register {
+  background-color: rgba(60, 60, 60, 0.6) !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 90%;
+  width: 30%;
+  border-radius: 3%;
+  color: #00fbef;
+}
+
+.btn-f-register {
+  background-color: #03e1be;
+  color: #093a32;
+  width: 100%;
+  padding: 5px 20px;
+  display: block;
+  height: 30px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-f-register:hover {
+  background-color: #0fafa7;
+  color: #005256;
+}
+
+.register {
+  text-align: center;
+}
+
+.register > a {
+  color: #03437a;
+}
+
+.register > a:hover {
+  color: #1194a9;
+}
+
+/**---------------------Sản phẩm---------------------*/
+.col-sm-3 > .panel > .panel-heading {
+  height: 50px;
+}
+
+.col-sm-3 > .panel > .panel-body {
+  height: 170px;
+}
+
+.col-sm-3 > .panel > .panel-body-2 {
+  height: 50px !important;
+}
+.col-sm-3 > .panel > .panel-body-2 > a.tensp-topview {
+  padding-bottom: 5px !important;
+}
+.col-sm-3 > .panel > .panel-footer {
+  height: 55px !important;
+}
+
+table#table-sp th {
+  text-align: center !important;
+  width: auto !important;
+}
+
+table#table-sp td {
+  text-align: justify !important;
+  max-height: 100px !important;
+}
+
+table#table-sp .motasp {
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+/**---------------------Footer---------------------*/
+footer {
+  background-color: #2f8489;
+  color: #f5f5f5;
+  padding: 10px;
+  position: static;
+  bottom: 0;
+  z-index: 1000 !important;
+}
+
+footer a:hover {
+  color: #002cb1;
+  text-decoration: none;
+}
+
+footer > h2 > a {
+  color: #009ded;
+}
+
+footer > h2 {
+  margin: 10px;
+}
+
+/**---------------------Admin---------------------*/
+
+.row.content {
+  height: 900px;
+}
+
+.row.content > .sidenav > .sidenav-logo {
+  display: flex;
+  justify-content: center;
+  padding: auto;
+  margin-bottom: 20px;
+}
+
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+.dropdown > .dropdown-toggle > span#avartar {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.row content > .col-sm-3#sidenav-admin {
+  width: 10% !important;
+}
+
+/**---------------------Responsive---------------------*/
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  #f-search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 11px;
+    border-radius: 25px;
+    min-height: 41px;
+    width: 150px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 993px) {
+  #f-search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 11px;
+    border-radius: 25px;
+    min-height: 41px;
+    width: 100px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+}
